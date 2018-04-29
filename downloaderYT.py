@@ -14,6 +14,6 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
     for musica in musicas:
     	try:
     		ydl.download([musica])
-	    except:
-		    print "Error"
-		    pass
+	except:
+		print "Error"
+		pass
